@@ -1,0 +1,30 @@
+{
+  "name": "test-grunt",
+  "version": "0.0.1",
+  "description": "test",
+  "license": "MIT",
+  "scripts": {
+    "init": "grunt init",
+    "build": "grunt build",
+    "watch": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "1.0.4",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "3.0.0",
+    "grunt-contrib-htmlmin": "3.1.0",
+    "grunt-contrib-uglify": "4.0.1",
+    "grunt-contrib-watch": "1.1.0",
+    "grunt-sass": "3.0.2",
+    "node-sass": "4.12.0",
+    "matchdep": "2.0.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "3.4.1"
+  },
+  "main": "gruntfile.js",
+  "keywords": [
+    "test"
+  ]
+}
